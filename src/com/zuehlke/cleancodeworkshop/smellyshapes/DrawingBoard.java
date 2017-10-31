@@ -2,14 +2,14 @@ package com.zuehlke.cleancodeworkshop.smellyshapes;
 
 public class DrawingBoard extends ShapeGroup {
 
-    private Color backgroundColor;
+    private Color backgroundColor2;
 
     public Color getBackgroundColor() {
-        return backgroundColor;
+        return backgroundColor2;
     }
 
     public void setBackgroundColor(Color backgroundColor) {
-        this.backgroundColor = backgroundColor;
+        this.backgroundColor2 = backgroundColor;
     }
 
     public void drawOnScreen() {
